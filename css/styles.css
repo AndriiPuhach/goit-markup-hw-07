@@ -880,7 +880,7 @@ ul {
   cursor: pointer;
 }
 
-.policy-box {
+.policy__box {
   font-size: 14px;
   color: var(--primary-text-color);
   margin-bottom: 30px;
@@ -889,7 +889,7 @@ ul {
   justify-content: center;
   cursor: pointer;
 }
-.policy-checkbox {
+.policy {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -900,7 +900,7 @@ ul {
   overflow: hidden;
 }
 
-.policy-checkbox:checked + .policy-box::before {
+.policy:checked + .policy__box::before {
   background-color: var(--accent-color);
   background-image: url(../images/checked.svg);
   background-repeat: no-repeat;
@@ -910,7 +910,7 @@ ul {
   outline: none;
 }
 
-.policy-box::before {
+.policy__box::before {
   display: block;
   content: '';
   width: 16px;
@@ -921,7 +921,7 @@ ul {
   outline: none;
 }
 
-.policy-box a {
+.policy__box a {
   color: var(--accent-color);
   text-decoration: underline;
 }
