@@ -57,7 +57,7 @@ ul {
 }
 
 /* Лого Хедер и первая часть для Футера */
-.navigation__logo {
+.logo {
   font-family: Raleway, sans-serif;
   color: var(--accent-color);
   text-decoration: none;
@@ -68,7 +68,7 @@ ul {
   display: inline-block;
 }
 
-.navigation__logo--black {
+.logo--black {
   color: #000;
 }
 
@@ -402,7 +402,7 @@ ul {
 }
 
 /* Клиенты */
-.clients-headline {
+.clients__headline {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -412,13 +412,13 @@ ul {
   margin-bottom: 50px;
 }
 
-.clients-list {
+.clients__list {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.clients-link {
+.clients__link {
   color: var(--social-color);
   display: flex;
   height: 92px;
@@ -431,18 +431,18 @@ ul {
   transition: fill 250ms var(--time-function), border-color 250ms var(--time-function);
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients__link:hover,
+.clients__link:focus {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
 
-.clients-item {
+.clients__item {
   width: 170px;
   height: 92px;
 }
 
-.clients-item:not(:last-child) {
+.clients__item:not(:last-child) {
   margin-right: 30px;
 }
 /* Футер */
@@ -451,64 +451,57 @@ ul {
   background-color: var(--secondary-bg-color);
   padding: 60px 0px;
 }
-.footer-container {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
-.footer-content {
+.footer__content {
   flex-grow: 1;
   margin-right: 70px;
 }
 
 /* Лого футер */
-.logo > .logo-studio-footer {
-  color: var(--primary-bg-color);
+.logo--white {
+  color: var(--backround-color);
 }
+
+/*  */
 /* Адресс Футер */
-.adress-footer {
+.adress {
   font-style: normal;
   margin-top: 20px;
 }
 
-.adress-street {
+.adress__street {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-bg-color);
 }
-.adress-list {
+.adress__list {
   list-style: none;
 }
-.mail,
-.tel {
+.adress__mail,
+.adress__tel {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms var(--time-function);
+  text-decoration: none;
 }
-.mail:hover,
-.mail:focus,
-.tel:hover,
-.tel:focus {
+.adress__mail:hover,
+.adress__mail:focus,
+.adress__tel:hover,
+.adress__tel:focus {
   color: var(--accent-color);
 }
-/* .adress-street {
-  
-  color: var(--primary-bg-color);
-} */
 
-.adress-item:not(:last-child) {
+.adress__item:not(:last-child) {
   margin-bottom: 9px;
 }
-.footer-socials {
-  display: flex;
-}
-.footer-socials-item:not(:last-child) {
-  margin-right: 10px;
-}
 
-.footer-title {
+.subscribe__title {
   color: var(--primary-bg-color);
   font-weight: 700;
   font-size: 14px;
@@ -518,7 +511,7 @@ ul {
   margin-bottom: 20px;
 }
 
-.footer-socials-link {
+.social__link--white {
   display: flex;
   color: var(--primary-bg-color);
   background-color: rgba(255, 255, 255, 0.1);
@@ -531,14 +524,14 @@ ul {
   transition: background-color 250ms var(--time-function);
 }
 
-.footer-socials-link:hover,
-.footer-socials-link:focus {
+.social__link--white:hover,
+.social__link--white:focus {
   background-color: var(--accent-color);
 }
-.footer-signup {
+.signup {
   margin-left: 93px;
 }
-.signup-title {
+.signup__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -548,11 +541,11 @@ ul {
   margin-bottom: 20px;
 }
 
-.signup {
+.signup__form {
   display: inline-flex;
 }
 
-.signup-input {
+.signup__input {
   display: flex;
   width: 358px;
   padding: 15px 16px;
@@ -565,7 +558,7 @@ ul {
   outline: none;
 }
 
-.button-signup {
+.signup__button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -585,13 +578,13 @@ ul {
   cursor: pointer;
   transition: background-color 250ms var(--time-function), color 250ms var(--time-function);
 }
-.button-signup:hover,
-.button-signup:focus {
+.signup__button:hover,
+.ignup__button:focus {
   background-color: var(--backround-color);
   color: var(--accent-color);
 }
 
-.submit-img {
+.submit__img {
   margin-left: 10px;
 }
 
