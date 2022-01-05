@@ -263,7 +263,7 @@ ul {
   margin: -1px;
 }
 /* Чем мы занимаемся */
-.works-headline {
+.works__headline {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -272,32 +272,32 @@ ul {
   color: var(--secondary-text-color);
   margin-bottom: 50px;
 }
-.section.doing {
+.works {
   padding-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
-.works-list {
+.works__list {
   list-style: none;
   display: flex;
 }
-.works-item:not(:last-child) {
+.works__item:not(:last-child) {
   margin-right: 30px;
 }
-.img-doing {
+.works__img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-.works-item {
+.works__item {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.works-description {
+.works__description {
   display: flex;
   position: absolute;
   bottom: 0;
