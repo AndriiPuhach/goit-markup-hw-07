@@ -202,7 +202,7 @@ ul {
 }
 
 /* Особенности */
-.properties-headline {
+.properties__headline {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -210,7 +210,7 @@ ul {
   color: var(--secondary-text-color);
 }
 
-.icon-container {
+.properties__wrapper {
   display: inline-flex;
   background-color: var(--backround-color);
   justify-content: center;
@@ -221,16 +221,16 @@ ul {
   margin-bottom: 30px;
 }
 
-.properties-list {
+.properties__list {
   list-style: none;
   display: flex;
 }
 
-.properties-item:not(:last-child) {
+.properties__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.properties-title {
+.properties__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -248,14 +248,14 @@ ul {
   padding: 0px 15px;
 }
 
-.properties-text {
+.properties__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   width: 270px;
 }
 
-.hidden {
+.properties__headline--hidden {
   position: absolute;
   clip: rect(0 0 0 0);
   width: 1px;
