@@ -747,7 +747,7 @@ ul {
   backdrop-filter: blur(1px);
 }
 
-.backdrop.is-hidden {
+.backdrop--is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
@@ -767,7 +767,7 @@ ul {
   padding: 40px;
 }
 
-.backdrop.is-hidden .modal {
+.backdrop--is-hidden .modal {
   transform: translate(-50%, -50%);
 }
 
