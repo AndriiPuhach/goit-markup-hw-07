@@ -590,7 +590,7 @@ ul {
 
 /* Мейн портфолио */
 
-.hero-tagline {
+.container__headline {
   color: var(--secondary-text-color);
   font-weight: 900;
   font-size: 44px;
@@ -599,7 +599,13 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-
+.container__headline--hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
 /* Оформление кнопок портфолио */
 .filter-list {
   list-style: none;
