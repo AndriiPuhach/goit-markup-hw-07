@@ -60,41 +60,41 @@
        </section>
     <!-- Бекдроп+модалка -->
     <div data-modal class="backdrop backdrop--is-hidden">
-        <div class="modal modal--is-hidden">
-            <button type="button" class="close-button" data-modal-close>
-                <svg class="close-icon" width="11" height="11">
+        <div class="modal">
+            <button type="button" class="modal__close" data-modal-close>
+                <svg class="modal__icon" width="11" height="11">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
-            <p class="modal-headline">Оставьте свои данные, мы вам перезвоним</p>
+            <p class="modal__headline">Оставьте свои данные, мы вам перезвоним</p>
             <!-- Форма в модалке -->
-            <form class="modal-form">
-                <label class="form-input-box">
+            <form class="form-feedback">
+                <label class="form-input">
                     Имя
-                    <input type="text" name="user-name" class="form-input" >
-                    <svg class="form-input-icon" height="18" width="18" >
+                    <input type="text" name="user-name" class="form-input__message" >
+                    <svg class="form-input__icon" height="18" width="18" >
                         <use href="./images/icons.svg#icon-person-new"></use>
                     </svg>
                 </label>
-                <label class="form-input-box">
+                <label class="form-input">
                    Телефон
-                    <input type="text" name="user-name" class="form-input" >
-                    <svg class="form-input-icon" height="18" width="18">
+                    <input type="text" name="user-name" class="form-input__message" >
+                    <svg class="form-input__icon" height="18" width="18">
                         <use href="./images/icons.svg#icon-phone-new"></use>
                     </svg>
                 </label>
-                <label class="form-input-box">
+                <label class="form-input">
                     Почта
-                    <input type="text" name="user-name" class="form-input">
-                    <svg class="form-input-icon" height="18" width="18">
+                    <input type="text" name="user-name" class="form-input__message">
+                    <svg class="form-input__icon" height="18" width="18">
                         <use href="./images/icons.svg#icon-email-new"></use>
                     </svg>
                 </label>
-                <div class="message-box">
-                    <label class="textarea-label" for="user-msg">
+                <div class="comment">
+                    <label class="comment__label" for="user-msg">
                         Комментарий
                     </label>
-                    <textarea name="user-msg" class="form-message" id="user-msg" placeholder="Введите текст"></textarea>
+                    <textarea name="user-msg" class="comment__msg" id="user-msg" placeholder="Введите текст"></textarea>
                     
                 </div>
                 

@@ -771,7 +771,7 @@ ul {
   transform: translate(-50%, -50%);
 }
 
-.close-button {
+.modal__close {
   position: absolute;
   display: flex;
   right: 8px;
@@ -788,13 +788,13 @@ ul {
   transition: transform 250ms var(--time-function), fill 250ms var(--time-function);
 }
 
-.close-button:hover,
-.close-button:focus {
+.modal__close:hover,
+.modal__close:focus {
   transform: rotate(-90deg);
   fill: var(--accent-color);
 }
 
-.modal-headline {
+.modal__headline {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -803,11 +803,11 @@ ul {
   color: var(--secondary-text-color);
 }
 
-.modal-form {
+.form-feedback {
   margin-top: 12px;
 }
 
-.form-input-box {
+.form-input {
   display: block;
   color: var(--primary-text-color);
   font-size: 12px;
@@ -818,7 +818,7 @@ ul {
   cursor: pointer;
 }
 
-.form-input-icon {
+.form-input__icon {
   display: block;
   width: 18px;
   height: 18px;
@@ -829,8 +829,8 @@ ul {
   transition: fill 250ms var(--time-function);
 }
 
-.form-input,
-.form-message {
+.form-input__message,
+.comment__msg {
   width: 100%;
   height: 40px;
   padding-top: 15px;
@@ -845,16 +845,16 @@ ul {
   cursor: pointer;
 }
 
-.form-input:focus {
+.form-input__message:focus {
   border: 1px solid var(--accent-color);
   outline: none;
 }
 
-.form-input:focus + .form-input-icon {
+.form-input__message:focus + .form-input__icon {
   fill: var(--accent-color);
 }
 
-.form-message {
+.comment__msg {
   display: block;
   resize: none;
   min-height: 120px;
@@ -868,11 +868,11 @@ ul {
   color: var(--secondary-text-color);
 }
 
-.message-box {
+.comment {
   margin-bottom: 20px;
 }
 
-.textarea-label {
+.comment__label {
   color: var(--primary-text-color);
   font-size: 12px;
   line-height: 1.16;
