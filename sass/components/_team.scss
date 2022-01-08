@@ -7,7 +7,7 @@
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: $letter-spacing;
   color: $secondary-text-color;
   margin-bottom: 50px;
 }
@@ -20,14 +20,14 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
+  letter-spacing: $letter-spacing;
   color: $secondary-text-color;
   text-align: center;
 }
 .team__text {
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
+  letter-spacing: $letter-spacing;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 16px;

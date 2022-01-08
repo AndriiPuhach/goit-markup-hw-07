@@ -2,7 +2,7 @@
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  letter-spacing: 0.03em;
+  letter-spacing: $letter-spacing;
   color: $secondary-text-color;
   &--hidden {
     position: absolute;
@@ -37,7 +37,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
+  letter-spacing: $letter-spacing;
   text-transform: uppercase;
   color: $secondary-text-color;
   margin-bottom: 10px;
@@ -47,6 +47,6 @@
 .properties__text {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+  letter-spacing: $letter-spacing;
   width: 270px;
 }

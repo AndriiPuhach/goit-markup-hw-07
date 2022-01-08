@@ -19,7 +19,7 @@
 .adress__street {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+  letter-spacing: $letter-spacing;
   color: $primary-bg-color;
 }
 .adress__list {
@@ -29,7 +29,7 @@
 .adress__tel {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+  letter-spacing: $letter-spacing;
   color: rgba(255, 255, 255, 0.6);
   transition: color $transition-duration $time-function;
   text-decoration: none;
@@ -51,7 +51,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
+  letter-spacing: $letter-spacing;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -63,7 +63,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
+  letter-spacing: $letter-spacing;
   text-transform: uppercase;
   color: $primary-bg-color;
   margin-bottom: 20px;
