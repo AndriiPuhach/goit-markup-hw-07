@@ -29,10 +29,10 @@
   transition-timing-function: $time-function;
   transform: translate(-50%, -50%) rotate(360deg);
   padding: 40px;
-}
 
-.backdrop--is-hidden .modal {
-  transform: translate(-50%, -50%);
+  .backdrop--is-hidden & {
+    transform: translate(-50%, -50%);
+  }
 }
 
 .modal__close {
@@ -51,12 +51,12 @@
   cursor: pointer;
   transition: transform $transition-duration $time-function,
     fill $transition-duration $time-function;
-}
 
-.modal__close:hover,
-.modal__close:focus {
-  transform: rotate(-90deg);
-  fill: $accent-color;
+  &:hover,
+  &:focus {
+    transform: rotate(-90deg);
+    fill: $accent-color;
+  }
 }
 
 .modal__headline {
