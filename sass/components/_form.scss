@@ -22,10 +22,12 @@
   left: 10px;
   fill: inherit;
   transition: fill $transition-duration $time-function;
+  .form-input__message:focus + & {
+    fill: $accent-color;
+  }
 }
 
-.form-input__message,
-.comment__msg {
+.form-input__message {
   width: 100%;
   height: 40px;
   padding-top: 15px;
@@ -38,29 +40,34 @@
   transition: border $transition-duration $time-function;
   outline: none;
   cursor: pointer;
-}
-
-.form-input__message:focus {
-  border: 1px solid $accent-color;
-  outline: none;
-}
-
-.form-input__message:focus + .form-input__icon {
-  fill: $accent-color;
+  &:focus {
+    border: 1px solid $accent-color;
+    outline: none;
+  }
 }
 
 .comment__msg {
+  width: 100%;
+  height: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 44px;
+  margin-top: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  transition: border $transition-duration $time-function, color $transition-duration $time-function;
+  outline: none;
+  cursor: pointer;
   display: block;
   resize: none;
   min-height: 120px;
   padding: 16px 12px;
   font: inherit;
   color: rgba(117, 117, 117, 0.5);
-  transition: color $transition-duration $time-function;
-}
-.form-message:focus {
-  border: 1px solid $accent-color;
-  color: $secondary-text-color;
+  &:focus {
+    border: 1px solid $accent-color;
+    color: $secondary-text-color;
+  }
 }
 
 .comment {
@@ -83,7 +90,19 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+
+  &::before {
+    display: block;
+    content: '';
+    width: 16px;
+    height: 15px;
+    border: 2px solid #212121;
+    border-radius: 2px;
+    margin-right: 10px;
+    outline: none;
+  }
 }
+
 .policy {
   position: absolute;
   width: 1px;
@@ -105,18 +124,7 @@
   outline: none;
 }
 
-.policy__box::before {
-  display: block;
-  content: '';
-  width: 16px;
-  height: 15px;
-  border: 2px solid #212121;
-  border-radius: 2px;
-  margin-right: 10px;
-  outline: none;
-}
-
-.policy__box a {
+.policy__link {
   color: $accent-color;
   text-decoration: underline;
 }
@@ -133,9 +141,8 @@
   cursor: pointer;
   transition: box-shadow $transition-duration $time-function,
     background $transition-duration $time-function;
-}
-
-.form-submit-btn:hover {
-  background: #188ce8;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  &:hover {
+    background: #188ce8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
 }
