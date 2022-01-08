@@ -4,6 +4,13 @@
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: $secondary-text-color;
+  &--hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+  }
 }
 
 .properties__wrapper {
@@ -42,12 +49,4 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   width: 270px;
-}
-
-.properties__headline--hidden {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
 }
