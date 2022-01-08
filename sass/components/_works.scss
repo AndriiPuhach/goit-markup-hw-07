@@ -24,17 +24,15 @@
 }
 
 .works__item {
+  @include flexed;
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   &:not(:last-child) {
     margin-right: 30px;
   }
 }
 
 .works__description {
-  display: flex;
+  @include flexed;
   position: absolute;
   bottom: 0;
   height: 70px;
@@ -43,8 +41,6 @@
   margin: 0;
   font-size: 14px;
   line-height: 1.14;
-  align-items: center;
-  justify-content: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   background-color: rgba(47, 48, 58, 0.8);

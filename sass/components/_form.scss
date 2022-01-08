@@ -83,12 +83,10 @@
 }
 
 .policy__box {
+  @include flexed;
   font-size: 14px;
   color: $primary-text-color;
   margin-bottom: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   cursor: pointer;
 
   &::before {

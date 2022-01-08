@@ -9,20 +9,16 @@
 }
 
 .clients__list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flexed;
 }
 
 .clients__link {
   color: $social-color;
-  display: flex;
+  @include flexed;
   height: 92px;
   width: 170px;
   border: 1px solid $social-color;
   border-radius: 4px;
-  align-items: center;
-  justify-content: center;
   fill: currentColor;
   transition: fill $transition-duration $time-function,
     border-color $transition-duration $time-function;
@@ -37,7 +33,6 @@
 .clients__item {
   width: 170px;
   height: 92px;
-
   &:not(:last-child) {
     margin-right: 30px;
   }
