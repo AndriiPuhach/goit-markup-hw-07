@@ -33,12 +33,11 @@
   color: rgba(255, 255, 255, 0.6);
   transition: color $transition-duration $time-function;
   text-decoration: none;
-}
-.adress__mail:hover,
-.adress__mail:focus,
-.adress__tel:hover,
-.adress__tel:focus {
-  color: $accent-color;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
 .adress__item:not(:last-child) {
@@ -105,11 +104,11 @@
   cursor: pointer;
   transition: background-color $transition-duration $time-function,
     color $transition-duration $time-function;
-}
-.signup__button:hover,
-.signup__button:focus {
-  background-color: $backround-color;
-  color: $accent-color;
+  &:hover,
+  &:focus {
+    background-color: $backround-color;
+    color: $accent-color;
+  }
 }
 
 .submit__img {
