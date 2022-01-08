@@ -5,7 +5,7 @@
 Вторичный цвет фона - #2F303A
 Цвет акцента - #2196F3 */
 
-:root {
+/* :root {
   --primary-text-color: #757575;
   --secondary-text-color: #212121;
   --primary-bg-color: #fff;
@@ -14,9 +14,9 @@
   --backround-color: #f5f4fa;
   --social-color: #afb1b8;
   --time-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 /* Основные параметры body */
-body {
+/* body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
@@ -37,27 +37,36 @@ ul {
 ul {
   list-style: none;
 }
-.section {
+
+
+/* .container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 15px;
+} */
+
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
   margin-right: auto;
   margin-left: auto;
-}
-.header {
+} */
+/* .header {
   border-bottom: 1px solid #ececec;
 }
 .header__container {
   display: flex;
   align-items: center;
-}
+} */
 
-.navigation {
+/* .navigation {
   display: flex;
   align-items: center;
-}
+} */
 
 /* Лого Хедер и первая часть для Футера */
-.logo {
+/* .logo {
   font-family: Raleway, sans-serif;
   color: var(--accent-color);
   text-decoration: none;
@@ -67,18 +76,22 @@ ul {
   letter-spacing: 0.03em;
   display: inline-block;
 }
+/* Лого футер */
+/* .logo--white {
+  color: var(--backround-color);
+} */
 
-.logo--black {
+/* .logo--black {
   color: #000;
-}
+} */
 
-.link {
+/* .link {
   text-decoration: none;
-}
+} */
 
 /* Хедер */
 
-.navigation__link {
+/* .navigation__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -149,9 +162,9 @@ ul {
   list-style: none;
   display: flex;
   margin-left: 93px;
-}
+} */
 
-/* Оформление героя */
+/* Оформление героя
 .hero {
   background-color: var(--secondary-bg-color);
   text-align: center;
@@ -182,7 +195,7 @@ ul {
 }
 
 /*Кнопка герой */
-.hero__button {
+/* .hero__button {
   font-family: inherit;
   cursor: pointer;
   font-weight: 700;
@@ -200,9 +213,10 @@ ul {
   border-color: transparent;
   padding: 10px 32px;
 }
+*/
 
 /* Особенности */
-.properties__headline {
+/* .properties__headline {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -241,13 +255,6 @@ ul {
   width: 270px;
 }
 
-.container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0px 15px;
-}
-
 .properties__text {
   font-size: 14px;
   line-height: 1.71;
@@ -261,9 +268,9 @@ ul {
   width: 1px;
   height: 1px;
   margin: -1px;
-}
+} */
 /* Чем мы занимаемся */
-.works__headline {
+/* .works__headline {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -313,10 +320,10 @@ ul {
   text-transform: uppercase;
   background-color: rgba(47, 48, 58, 0.8);
   color: var(--backround-color);
-}
+} */
 
 /* Команда */
-.team {
+/* .team {
   background-color: var(--backround-color);
 }
 
@@ -361,9 +368,9 @@ ul {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   width: 270px;
-}
+} */
 
-.social__link {
+/* .social__link {
   display: flex;
   color: var(--social-color);
   width: 44px;
@@ -391,18 +398,18 @@ ul {
 .social__link:focus {
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
-}
+} */
 
-.team__item:not(:last-child) {
+/* .team__item:not(:last-child) {
   margin-right: 30px;
-}
+} */
 
-.social__icon {
+/* .social__icon {
   fill: currentColor;
-}
+} */
 
 /* Клиенты */
-.clients__headline {
+/* .clients__headline {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -444,10 +451,28 @@ ul {
 
 .clients__item:not(:last-child) {
   margin-right: 30px;
+} */
+
+/* .social__link--white {
+  display: flex;
+  color: var(--primary-bg-color);
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: currentColor;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms var(--time-function);
 }
+
+.social__link--white:hover,
+.social__link--white:focus {
+  background-color: var(--accent-color);
+} */
 /* Футер */
 
-.footer {
+/* .footer {
   background-color: var(--secondary-bg-color);
   padding: 60px 0px;
 }
@@ -459,15 +484,8 @@ ul {
   flex-grow: 1;
   margin-right: 70px;
 }
-
-/* Лого футер */
-.logo--white {
-  color: var(--backround-color);
-}
-
-/*  */
 /* Адресс Футер */
-.adress {
+/* .adress {
   font-style: normal;
   margin-top: 20px;
 }
@@ -511,23 +529,7 @@ ul {
   margin-bottom: 20px;
 }
 
-.social__link--white {
-  display: flex;
-  color: var(--primary-bg-color);
-  background-color: rgba(255, 255, 255, 0.1);
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  fill: currentColor;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 250ms var(--time-function);
-}
 
-.social__link--white:hover,
-.social__link--white:focus {
-  background-color: var(--accent-color);
-}
 .signup {
   margin-left: 93px;
 }
@@ -586,11 +588,11 @@ ul {
 
 .submit__img {
   margin-left: 10px;
-}
+} */
 
 /* Мейн портфолио */
 
-.container__headline {
+/* .container__headline {
   color: var(--secondary-text-color);
   font-weight: 900;
   font-size: 44px;
@@ -605,9 +607,9 @@ ul {
   width: 1px;
   height: 1px;
   margin: -1px;
-}
+} */
 /* Оформление кнопок портфолио */
-.filter {
+/* .filter {
   list-style: none;
   display: flex;
   justify-content: center;
@@ -648,10 +650,10 @@ ul {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-}
+} */
 
 /* Оформление примеров работ Портфолио */
-.examples__text {
+/* .examples__text {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -725,9 +727,9 @@ ul {
 .examples__link:hover .examples__info,
 .examples__link:focus .examples__info {
   transform: translateY(0);
-}
+} */
 /* Бекдроп+модалка */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -793,8 +795,8 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-}
-
+} */
+/* 
 .form-feedback {
   margin-top: 12px;
 }
@@ -934,4 +936,4 @@ ul {
 .form-submit-btn:hover {
   background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */

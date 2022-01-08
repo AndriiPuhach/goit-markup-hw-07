@@ -1,0 +1,117 @@
+.footer {
+  background-color: $secondary-bg-color;
+  padding: 60px 0px;
+}
+.footer__container {
+  display: flex;
+  align-items: baseline;
+}
+.footer__content {
+  flex-grow: 1;
+  margin-right: 70px;
+}
+/* Адресс Футер */
+.adress {
+  font-style: normal;
+  margin-top: 20px;
+}
+
+.adress__street {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $primary-bg-color;
+}
+.adress__list {
+  list-style: none;
+}
+.adress__mail,
+.adress__tel {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  transition: color $transition-duration $time-function;
+  text-decoration: none;
+}
+.adress__mail:hover,
+.adress__mail:focus,
+.adress__tel:hover,
+.adress__tel:focus {
+  color: $accent-color;
+}
+
+.adress__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.subscribe__title {
+  color: $primary-bg-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.signup {
+  margin-left: 93px;
+}
+.signup__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $primary-bg-color;
+  margin-bottom: 20px;
+}
+
+.signup__form {
+  display: inline-flex;
+}
+
+.signup__input {
+  display: flex;
+  width: 358px;
+  padding: 15px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: inherit;
+  color: $primary-bg-color;
+  outline: none;
+}
+
+.signup__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 200px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: $primary-bg-color;
+  fill: currentColor;
+  background-color: $accent-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: transparent;
+  margin-left: 12px;
+  cursor: pointer;
+  transition: background-color $transition-duration $time-function,
+    color $transition-duration $time-function;
+}
+.signup__button:hover,
+.signup__button:focus {
+  background-color: $backround-color;
+  color: $accent-color;
+}
+
+.submit__img {
+  margin-left: 10px;
+}

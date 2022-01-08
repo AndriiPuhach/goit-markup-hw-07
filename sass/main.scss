@@ -1,5 +1,18 @@
-a {
-  background-color: white;
-  color: aquamarine;
-  margin-top: 10px;
-}
+@import './utils/variables';
+@import './defaults/normalize';
+@import './defaults/base';
+@import './components/logo';
+@import './components/header';
+@import './components/navigation';
+@import './components/hero';
+@import './components/backdrop';
+@import './components/form';
+@import './components/properties';
+@import './components/works';
+@import './components/team';
+@import './components/social';
+@import './components/clients';
+@import './components/footer';
+@import './components/portfolio_main';
+@import './components/portfolio_filter';
+@import './components/portfolio_examples';

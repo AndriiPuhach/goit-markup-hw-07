@@ -1,0 +1,38 @@
+body {
+  background-color: $primary-bg-color;
+  color: $primary-text-color;
+  font-family: $primary-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 15px;
+}
+
+.link {
+  text-decoration: none;
+}
