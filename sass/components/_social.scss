@@ -8,6 +8,11 @@
   justify-content: center;
   transition: color $transition-duration $time-function,
     background-color $transition-duration $time-function;
+  &:hover,
+  &:focus {
+    color: $primary-bg-color;
+    background-color: $accent-color;
+  }
 }
 
 .social {
@@ -17,16 +22,6 @@
 
 .social__item:not(:last-child) {
   margin-right: 10px;
-}
-
-.social-icon {
-  fill: currentColor;
-}
-
-.social__link:hover,
-.social__link:focus {
-  color: $primary-bg-color;
-  background-color: $accent-color;
 }
 
 .social__icon {
@@ -44,9 +39,8 @@
   align-items: center;
   justify-content: center;
   transition: background-color $transition-duration $time-function;
-}
-
-.social__link--white:hover,
-.social__link--white:focus {
-  background-color: $accent-color;
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
 }
