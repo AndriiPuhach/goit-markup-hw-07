@@ -26,19 +26,19 @@
   fill: currentColor;
   transition: fill $transition-duration $time-function,
     border-color $transition-duration $time-function;
-}
 
-.clients__link:hover,
-.clients__link:focus {
-  fill: $accent-color;
-  border-color: $accent-color;
+  &:hover,
+  &:focus {
+    fill: $accent-color;
+    border-color: $accent-color;
+  }
 }
 
 .clients__item {
   width: 170px;
   height: 92px;
-}
 
-.clients__item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
