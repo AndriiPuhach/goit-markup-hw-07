@@ -20,8 +20,10 @@
   justify-content: center;
 }
 
-.social__item:not(:last-child) {
-  margin-right: 10px;
+.social__item {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .social__icon {

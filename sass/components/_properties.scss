@@ -29,8 +29,10 @@
   display: flex;
 }
 
-.properties__item:not(:last-child) {
-  margin-right: 30px;
+.properties__item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .properties__title {

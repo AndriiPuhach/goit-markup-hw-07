@@ -19,9 +19,15 @@
   }
 }
 
-.navigation__item:not(:last-child),
-.contacts__item:not(:last-child) {
-  margin-right: 50px;
+.navigation__item {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
+}
+.contacts__item {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .contacts {

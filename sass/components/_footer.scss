@@ -40,8 +40,10 @@
   }
 }
 
-.adress__item:not(:last-child) {
-  margin-bottom: 9px;
+.adress__item {
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
 
 .subscribe__title {
